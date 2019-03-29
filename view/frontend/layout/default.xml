@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Author Robert Rupa
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+       <referenceBlock class="Magento\Framework\View\Element\Template" name="ajax.message.placeholder" template="Konatsu_PreattyMessages::html/messages.phtml" cacheable="false"/>
+        <referenceBlock class="Magento\Framework\View\Element\Messages" name="messages" as="messages" template="Konatsu_PreattyMessages::messages.phtml" cacheable="false"/>
+    </body>
+</page>

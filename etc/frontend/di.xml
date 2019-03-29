@@ -1,0 +1,7 @@
+<config>
+    <type name="Magento\Checkout\Controller\Cart\Add">
+      <plugin name="konatsu_modify_message" type="Konatsu\PreattyMessages\Plugin\Cart\ModifyMessage" sortOrder="1" disabled="false" />
+    </type>    <type name="Magento\Checkout\Controller\Cart\Add">
+      <plugin name="konatsu_add_related" type="Konatsu\PreattyMessages\Plugin\Cart\AddRelated" sortOrder="2" disabled="false" />
+    </type>
+</config>
